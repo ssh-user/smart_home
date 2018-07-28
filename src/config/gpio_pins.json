@@ -1,0 +1,32 @@
+{
+    "motion": [
+        {
+            "name": "Hall-1",
+            "pin": 20
+        },
+        {
+            "name": "Hall-2",
+            "pin": 10
+        },
+        {
+            "name": "Hall-3",
+            "pin": 9
+        },
+        {
+            "name": "Hall-4",
+            "pin": 8
+        },
+        {
+            "name": "Hall-5",
+            "pin": 7
+        },
+        {
+            "name": "Hall-6",
+            "pin": 1
+        },
+        {
+            "name": "Hall-7",
+            "pin": 3
+        }
+    ]
+}

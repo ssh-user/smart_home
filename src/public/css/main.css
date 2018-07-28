@@ -1,0 +1,180 @@
+/************************************ Custom css rules ************************************/
+
+
+/************************************ GLOBAL ************************************/
+/* for full height of divs */
+html,body { 
+    height: 100%; 
+    margin: 0px; 
+    padding: 0px; 
+    background: linear-gradient(to right, rgb(171, 207, 253), rgb(132, 184, 252));    
+}
+
+table > tbody > tr *{
+    vertical-align: middle !important;
+}
+
+.text-indent{
+    text-indent: 3%;
+}
+
+
+/************************************ MAIN PAGE ************************************/
+
+/* 'root' entry point of app */
+#root {    
+    height: 100%;
+    min-height: 100%;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+
+/* logos indent */
+.logo{
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
+
+/* header title */
+@font-face {
+    font-family: "Lobster";
+    src: local("Lobster Regular"),
+        url(/fonts/Lobster-Regular.ttf);
+    font-weight: bold;
+}
+
+/* material design icons */
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(MaterialIcons-Regular.eot);
+    src: local('Material Icons'),
+         local('MaterialIcons-Regular'),
+         url(/fonts/MaterialIcons-Regular.woff2) format('woff2'),
+         url(/fonts/MaterialIcons-Regular.woff) format('woff'),
+         url(/fonts/MaterialIcons-Regular.ttf) format('truetype');
+}
+  
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+.header_title{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    color: blue;
+    margin: 1.5% 0 4.5% 0;
+}
+
+/* menu list */
+.menu_list{
+    box-shadow: 5px 5px 5px grey;
+}
+
+.menu_list > a:last-child{    
+    color: red;
+}
+
+
+
+/************************************ CONTROL PAGE ************************************/
+.usersList{
+    padding: 2%;
+    background-color: white;
+}
+
+.right{
+    text-align: right;
+}
+
+
+
+/************************************ WEBCAM PAGE ************************************/
+.webcam-view{
+    background-color: white;
+    padding: 5px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.webcam-view:hover{
+    box-shadow: 2px 2px 15px 5px grey;
+}
+
+.margin_bottom{
+    margin-bottom: 2%;
+}
+
+
+/************************************ HOME PAGE ************************************/
+.f-container{
+    margin: 0 3%;
+    background-color: white;
+    border-radius: 2%;
+    box-shadow: 5px 5px 5px grey;
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(194, 204, 224));
+}
+
+.f-container:hover{
+    box-shadow: 2px 2px 15px 5px grey;
+}
+
+.f-container > .title{
+    background: linear-gradient(to right, rgb(80, 80, 253), rgb(0, 0, 255));
+    color: white;
+    font-weight: bold;
+    border-radius: 5px 5px 0 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.f-container > .element {
+    padding: 5px 10px;
+}
+
+.f-container > .element :last-child {
+    margin-left: 10px;
+}
+
+
+
+/************************************ SMS and LOGs PAGE ************************************/
+.sens-container{
+    background-color: white;
+    padding: 15px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.sens-viewport{
+    min-height: 20rem;
+    margin-top: 2%;
+    border-bottom: solid 1px rgb(190, 190, 190);
+}
+
+.btn_remove_all{
+    margin-bottom: 2%;
+}
